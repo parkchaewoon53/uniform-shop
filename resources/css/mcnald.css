@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+}
+
+div {
+    /* border: 2px solid gold; */
+    background-color:black;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    z-index: 10;
+}
+
+.shop {
+    color: red;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+}
+
+.menu-item > p{
+    color: white;
+    font-weight: bold;
+}
+.login {
+    border-radius: 8px;
+    background-color: red;
+}
+
+.card-box {
+    height: 100000px;
+    display: flex;
+}
+
+.box {
+    width: calc(100% / 2);
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.image {
+    height: 300px;
+    position: absolute;
+    left: 50%;
+}
+
+.image2 {
+    height: 290px;
+    position: absolute;
+    left: 40%;
+}
+
+.box>p {
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 600px;
+}
+
+.box>span {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: red;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px; 
+    padding: 40px;
+    background-color: red;
+}
+
+.menu-container {
+    width: 80%;
+    text-align: center;
+    padding: 60px; 
+    border: 2px solid white;
+}
+
+.menu-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.menu-grid {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu-row {
+    justify-content: space-between;
+    display: flex; 
+    gap: 20px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+.menu-row :hover{
+background-color: pink;
+cursor: pointer;
+}
+
+.menu-item img {
+    width: 120px;
+    height: 120px;
+}

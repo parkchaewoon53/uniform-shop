@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 글자 색상 네이버 */
+.naver-color{
+    color: rgb(3, 180, 50);
+}
+
+/* 배경 색상 네이버 */
+.naver-bg{
+    background-color: rgb(3, 180, 50);
+}
+
+/* 흰색 배경 */
+.bg-white{
+    background-color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
